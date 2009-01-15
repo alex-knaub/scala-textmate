@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>if [[ ! -f "$TM_NEW_FILE" ]]; then
+   TM_YEAR=`date +%Y` \
+   TM_DATE=`date +%Y-%m-%d` \
+   TM_USERNAME=`niutil -readprop / /users/\$USER realname` \
+   TM_NEW_FILE_DIR=$(basename $(dirname "$TM_NEW_FILE")) \
+   perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
+      &lt; template_in.txt &gt; "$TM_NEW_FILE"
+fi</string>
+	<key>extension</key>
+	<string>txt</string>
+	<key>name</key>
+	<string>Scala Ant buildfile</string>
+	<key>uuid</key>
+	<string>47C98527-8A79-4039-A6C9-467ADE54A7B0</string>
+</dict>
+</plist>

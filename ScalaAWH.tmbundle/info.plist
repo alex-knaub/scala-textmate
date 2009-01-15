@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>ScalaAWH</string>
+	<key>ordering</key>
+	<array>
+		<string>158C0929-299A-40C8-8D89-316BE0C446E8</string>
+		<string>6851152B-CD07-4E27-9932-631A86102B5C</string>
+		<string>E79DCC79-E834-4B6C-8280-EBE0B9A0A41F</string>
+		<string>47C98527-8A79-4039-A6C9-467ADE54A7B0</string>
+		<string>8067567B-7B6D-4C3D-9D21-20485C5C51A1</string>
+		<string>EAD3249B-58D9-47A9-996B-3C0F2FF6E172</string>
+	</array>
+	<key>uuid</key>
+	<string>275D75B4-7110-4BCA-8025-6DD61CABF03C</string>
+</dict>
+</plist>

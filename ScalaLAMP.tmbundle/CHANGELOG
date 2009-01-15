@@ -1,0 +1,13 @@
+-- Scala syntax dictionary for TextMate.
+-- Author: Stéphane Micheloud <stephane.micheloud@epfl.ch>
+-- 
+-- $URL: $
+-- $Id: $
+
+
+Features the following:
+• bare-bones command for running ant.
+• syntaxes for properties files and the Scala language
+• "Scala Class" and "Scala Object" templates, which attempt to set the
+  package and @author tag automatically
+
